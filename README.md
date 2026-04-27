@@ -176,16 +176,7 @@ This project was built in a modular way, separating the assembler into distinct 
 - macro management
 - output generation
 
-## Design Notes
 
-This project was built in a modular way, separating the assembler into distinct stages and components:
-
-- preprocessing
-- scanning
-- parsing
-- instruction handling
-- macro management
-- output generation
 
 The implementation emphasizes:
 
@@ -194,15 +185,3 @@ The implementation emphasizes:
 - explicit error reporting
 - maintainable C code in a Linux environment
 - state-based parsing logic in the main analysis flow, inspired by automata-oriented thinking
-
-## What I Learned
-
-Through this project I gained hands-on experience with:
-
-- multi-stage program design
-- parsing and low-level text processing
-- symbol resolution
-- compiler/assembler-style workflows
-- modular software design in C
-- building and debugging larger system-level programs
-- applying state-machine style reasoning to parsing and control flow
